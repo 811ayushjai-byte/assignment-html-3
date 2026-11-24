@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TechFest 2027 - Register</title>
+</head>
+<body>
+
+  <header>
+    <h1>TechFest 2027</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="events.html">Events</a> |
+      <a href="schedule.html">Schedule</a> |
+      <a href="register.html">Register</a> |
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Participant Registration</h2>
+        <label for="fullname">Full Name:</label>
+        <br>
+        <input type="text" id="fullname" name="fullname" required>
+        <br><br>
+
+        <label for="email">Email Address:</label>
+        <br>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="phone">Phone Number:</label>
+        <br>
+        <input type="tel" id="phone" name="phone" required>
+        <br><br>
+
+        <label for="dept">Department:</label>
+        <br>
+
+        <select id="dept" name="dept">
+      <option value="cse">CSE with (AI/ML)</option>
+          <option value="ece">ECE</option>
+          <option value="mech">Mech</option>
+          <option value="civil">Civil</option>
+        </select>
+        <br><br>
+
+        <p>Year of Study:</p>
+        <input type="radio" id="y1" name="year" value="1st"> <label for="y1">1st Year</label>
+        <input type="radio" id="y2" name="year" value="2nd"> <label for="y2">2nd Year</label>
+        <input type="radio" id="y3" name="year" value="3rd"> <label for="y3">3rd Year</label>
+        <input type="radio" id="y4" name="year" value="4th"> <label for="y4">4th Year</label><br><br>
+
+        <p>Event Preferences:</p>
+        <input type="checkbox" id="ev1" name="events" value="hackathon"> <label for="ev1">CodeSprint Hackathon</label><br>
+        <input type="checkbox" id="ev2" name="events" value="robowars"> <label for="ev2">RoboWars</label><br>
+        <input type="checkbox" id="ev3" name="events" value="quiz"> <label for="ev3">AI &amp; ML Quiz</label><br>
+        <input type="checkbox" id="ev4" name="events" value="web"> <label for="ev4">Web Design Battle</label><br>
+        <input type="checkbox" id="ev5" name="events" value="pitch"> <label for="ev5">Tech Talk &amp; Startup Pitch</label>
+        <br><br>
+
+          
+    <label for="notes">Text area:</label><br>
+    <textarea id="notes" name="notes" rows="4" cols="30" placeholder="eneter here"></textarea>
+      <br><br>
+
+     <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2027 TechFest</p>
+  </footer>
+</body>
+</html>
